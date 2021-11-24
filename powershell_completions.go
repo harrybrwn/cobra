@@ -1,6 +1,8 @@
 // The generated scripts require PowerShell v5.0+ (which comes Windows 10, but
 // can be downloaded separately for windows 7 or 8.1).
 
+//go:build !no_cobra_completion
+
 package cobra
 
 import (

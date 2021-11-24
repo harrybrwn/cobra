@@ -1,3 +1,5 @@
+//go:build !no_cobra_completion
+
 package cobra
 
 import (
